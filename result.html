@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #E3F4F4;
+            }
+            h1 {
+                color: #1F6E8C;
+                text-align: center;
+                margin-top: 20%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            predict cancer : 
+            {% if prediction == 1 %}
+                Malignant 
+            {% elif prediction  %}
+                Benign
+            {% endif %}
+            cancer
+        </h1>
+    </body>
+</html>
